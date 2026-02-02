@@ -17,5 +17,7 @@ The network trains for 5000 epochs. After training, predictions are generated an
 
 Visualization
 The training loss over epochs is plotted using Matplotlib and saved as an image file (numpy_xor_loss.png). This helps visualize how the network learns and how the error decreases during training.
+
+
 Summary (Short)
 This program demonstrates how a basic neural network can be implemented using NumPy to solve the XOR problem by performing forward propagation, backpropagation, weight updates, and training visualization without relying on deep learning frameworks.
