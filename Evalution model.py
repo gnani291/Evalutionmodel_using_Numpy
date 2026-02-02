@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-
-# Ensure save directory exists
 save_dir = '/mnt/data'
 os.makedirs(save_dir, exist_ok=True)
 
@@ -75,7 +73,7 @@ print('Predictions:\n', a2)
 print('Binary preds:\n', preds)
 print('Accuracy:', acc)
 
-# save a quick loss plot
+# quick loss plot
 plt.plot(loss_history)
 plt.title('Training loss')
 plt.xlabel('Epoch')
@@ -83,3 +81,4 @@ plt.ylabel('MSE Loss')
 plt.tight_layout()
 plt.savefig(os.path.join(save_dir, 'numpy_xor_loss.png'))
 plt.show()
+
