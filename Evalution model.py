@@ -6,7 +6,7 @@ os.makedirs(save_dir, exist_ok=True)
 
 rng = np.random.default_rng(0)
 
-# XOR data
+#XOR data
 X = np.array([[0,0],[0,1],[1,0],[1,1]], dtype=float)
 y = np.array([[0],[1],[1],[0]], dtype=float)
 
@@ -81,4 +81,5 @@ plt.ylabel('MSE Loss')
 plt.tight_layout()
 plt.savefig(os.path.join(save_dir, 'numpy_xor_loss.png'))
 plt.show()
+
 
