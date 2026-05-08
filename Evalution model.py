@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
+
 save_dir = '/mnt/data'
 os.makedirs(save_dir, exist_ok=True)
 rng = np.random.default_rng(0)
